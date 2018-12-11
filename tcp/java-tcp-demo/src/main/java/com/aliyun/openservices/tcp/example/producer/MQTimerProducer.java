@@ -27,6 +27,9 @@ import java.util.Properties;
 public class MQTimerProducer {
     public static void main(String[] args) {
 
+
+        int j = 0;
+
         Properties producerProperties = new Properties();
         int j = 0;
 
