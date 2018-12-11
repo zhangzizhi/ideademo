@@ -28,6 +28,7 @@ public class MQTimerProducer {
     public static void main(String[] args) {
 
         Properties producerProperties = new Properties();
+        int j = 0;
         producerProperties.setProperty(PropertyKeyConst.ProducerId, MqConfig.PRODUCER_ID);
         producerProperties.setProperty(PropertyKeyConst.AccessKey, MqConfig.ACCESS_KEY);
         producerProperties.setProperty(PropertyKeyConst.SecretKey, MqConfig.SECRET_KEY);
